@@ -3,12 +3,40 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>PWord Guess Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <script src="assets/javascript/game.js"></script>
 </head>
 <body>
+    <div class="container">
+        <header>
+            <h1>Word Guess Game</h1>
+        </header>
+        <div class="letter">
+        press any key to get started
+    </div>
+
+    <div class="wins">
+        wins 10
+    </div>
     
+    <div class="currentWord">
+        current word <span id="right_guesses"></span>
+    </div>
+
+    <div class="guessesLeft">
+        number of guesses remaining <span id="guesses"></span>
+    </div>
+
+    <div class="correctLetter">
+        correct letter guessed
+        </div>
+
+    <div id="lettersGuessed">
+        letters already guessed <span id="wrong_guesses"></span>
+    </div>
+
 </body>
 </html>
